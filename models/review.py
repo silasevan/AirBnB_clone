@@ -1,17 +1,18 @@
 #!/usr/bin/python3
-"""Holds User class that inherits from BaseModel"""
+"""
+Review class, a subclass of BaseModel class
+"""
 from models.base_model import BaseModel
 
 
 class Review(BaseModel):
-    """Initalizes Review class
-
-    Attributes:
-        place_id (str) - Refers to the Place.id
-        user_id (str) - Refers to the User.id
-        text (str) - The content of the review
     """
-
+    A subclass of BaseModel class
+    Public class attributes:
+        place_id:            (str) will be Place.id
+        user_id:             (str) will be User.id
+        text:                (str)
+    """
     place_id = ""
     user_id = ""
     text = ""
